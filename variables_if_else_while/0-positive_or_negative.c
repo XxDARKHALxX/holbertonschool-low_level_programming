@@ -19,6 +19,6 @@ int main(void)
 	else if (n < 0)
 		primtf("%d is negative\n");
 	else
-		printf("%d is zero\n");
+		printf("%d is zer\n");
 	return (0);
 }
