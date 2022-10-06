@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
 /**
  * main - output negative or positive
@@ -15,10 +15,10 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
-		printf("%d is positive\n");
+		printf("%d is positive\n", n);
 	else if (n < 0)
-		primtf("%d is negative\n");
+		printf("%d is negative\n", n);
 	else
-		printf("%d is zer\n");
+		printf("%d is zero\n", n);
 	return (0);
 }
