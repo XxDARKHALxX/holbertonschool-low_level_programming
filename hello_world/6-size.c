@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - used to calculate the size
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
