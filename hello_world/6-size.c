@@ -1,4 +1,11 @@
 #include <stdio.h>
+
+/**
+ * main - used to calculate the size
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
 	char a;
