@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - sends a formatted string to the standard output
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
