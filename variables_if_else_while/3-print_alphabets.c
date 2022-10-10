@@ -7,19 +7,15 @@
 */
 int main(void)
 {
-	int x;
+	char x;
 
-	for (x = 'A'; x <= 'Z'; x++)
+	for (x = 'a'; x <= 'z'; x++)
 	{
-		char small = tolower(x);
-
-		putchar(small);
+		putchar(x);
 	}
 	for (x = 'A'; x <= 'Z'; x++)
 	{
-		char upper = toupper(x);
-
-		putchar(upper);
+		putchar(x);
 	}
 
 	putchar ('\n');
